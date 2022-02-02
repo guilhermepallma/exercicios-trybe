@@ -1,0 +1,11 @@
+h1, p {
+  text-align: center;
+}
+
+ol:hover {
+  background-color: gray;
+}
+
+ol:active {
+  font-family: monospace;
+}
