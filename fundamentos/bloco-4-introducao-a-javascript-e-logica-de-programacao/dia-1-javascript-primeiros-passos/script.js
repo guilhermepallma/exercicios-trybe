@@ -1,3 +1,6 @@
+//Exercicio 01;
+
+/** 
 const a = 33;
 const b = 44;
 
@@ -15,3 +18,16 @@ console.log(divisao);
 
 let modulo = a % b;
 console.log(modulo);
+*/
+
+
+//Exercicio 02;
+
+const num1 = 11;
+const num2 = 22;
+
+if (num2 > num1){
+    console.log(num2);
+} else {
+    console.log(num1);
+}
