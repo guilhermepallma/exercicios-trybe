@@ -119,6 +119,7 @@ switch (peca) {
 
 //Exercicio 07;
 
+/**
 const porc = 60;
 
 if (porc < 0) {
@@ -135,4 +136,21 @@ if (porc < 0) {
   console.log("E");
 } else if (porc < 50) {
   console.log("F");
+}
+*/
+
+//Exercicio 08;
+
+const num1 = 1;
+const num2 = 3
+const num3 = 5;
+
+if (num1 % 2 === 0) {
+  console.log("true");
+} else if (num2 % 2 === 0) {
+  console.log("true");
+} else if (num3 % 2 === 0) {
+  console.log("true");
+} else {
+  console.log("false");
 }
