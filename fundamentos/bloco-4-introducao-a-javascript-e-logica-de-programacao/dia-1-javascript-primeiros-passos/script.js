@@ -141,8 +141,9 @@ if (porc < 0) {
 
 //Exercicio 08;
 
+/**
 const num1 = 1;
-const num2 = 3
+const num2 = 3;
 const num3 = 5;
 
 if (num1 % 2 === 0) {
@@ -150,6 +151,23 @@ if (num1 % 2 === 0) {
 } else if (num2 % 2 === 0) {
   console.log("true");
 } else if (num3 % 2 === 0) {
+  console.log("true");
+} else {
+  console.log("false");
+}
+*/
+
+//Exercicio 09;
+
+const num1 = 2;
+const num2 = 4;
+const num3 = 6;
+
+if (num1 % 2 !== 0) {
+  console.log("true");
+} else if (num2 % 2 !== 0) {
+  console.log("true");
+} else if (num3 % 2 !== 0) {
   console.log("true");
 } else {
   console.log("false");
