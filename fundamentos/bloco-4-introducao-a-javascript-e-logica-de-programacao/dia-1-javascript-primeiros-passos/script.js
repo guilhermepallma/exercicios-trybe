@@ -64,6 +64,7 @@ if (num1 >= 1) {
 
 //Exercicio 05;
 
+/**
 const lado1 = 60;
 const lado2 = 60;
 const lado3 = 60;
@@ -81,3 +82,36 @@ if (lado1 < 1 || lado2 < 1 || lado3 < 1) {
 } else {
     console.log("true");
 }
+*/
+
+//Exercicio 06;
+
+let text = "Cavalo";
+let peca = text.toLowerCase();
+
+switch (peca) {
+  case "rei":
+    console.log("horizontal, vertical e diagonal");
+    break;
+  
+  case "rainha":
+    console.log("horizontal, vertical e diagonais");
+    break;
+
+  case "bispo":
+    console.log("diagonal");
+    break;
+
+  case "cavalo":
+    console.log("Em forma de “L”, duas casas em sentido horizontal e mais uma na vertical ou vice-versa");
+    break;
+
+  case "torre":
+    console.log("vertical ou horizontal");
+    break;
+
+  case "peao":
+    console.log("diagonal");
+    break;
+}
+
