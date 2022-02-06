@@ -52,10 +52,32 @@ if (num1 > num2 && num1 > num3){
 
 //Exercicio 04;
 
+/**
 const num1 = -2
 
 if (num1 >= 1) {
     console.log("positive");
 } else {
     console.log("negative");
+}
+*/
+
+//Exercicio 05;
+
+const lado1 = 60;
+const lado2 = 60;
+const lado3 = 60;
+
+let result;
+
+result = lado1 + lado2 + lado3;
+
+if (lado1 < 1 || lado2 < 1 || lado3 < 1) {
+    console.log("Ângulo inválido. Utilize apenas números positivos.");
+} else if (result > 180) {
+    console.log("false");
+} else if (result < 180) {
+    console.log("false");
+} else {
+    console.log("true");
 }
