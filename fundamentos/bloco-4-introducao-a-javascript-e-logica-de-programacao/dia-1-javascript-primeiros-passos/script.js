@@ -86,6 +86,7 @@ if (lado1 < 1 || lado2 < 1 || lado3 < 1) {
 
 //Exercicio 06;
 
+/**
 let text = "Cavalo";
 let peca = text.toLowerCase();
 
@@ -114,4 +115,24 @@ switch (peca) {
     console.log("diagonal");
     break;
 }
+*/
 
+//Exercicio 07;
+
+const porc = 60;
+
+if (porc < 0) {
+  console.log("Porcentagem não pode ser menor de 0");
+} else if (porc >= 90) {
+  console.log("A");
+} else if (porc >= 80) {
+  console.log("B");
+} else if (porc >= 70) {
+  console.log("C");
+} else if (porc >= 60) {
+  console.log("D");
+} else if (porc >= 50) {
+  console.log("E");
+} else if (porc < 50) {
+  console.log("F");
+}
