@@ -36,6 +36,7 @@ if (num2 > num1){
 
 //Exercicio 03;
 
+/** 
 const num1 = 9;
 const num2 = 11;
 const num3 = 7;
@@ -46,4 +47,15 @@ if (num1 > num2 && num1 > num3){
     console.log(num2);
 } else {
     console.log(num3);
+}
+*/
+
+//Exercicio 04;
+
+const num1 = -2
+
+if (num1 >= 1) {
+    console.log("positive");
+} else {
+    console.log("negative");
 }
