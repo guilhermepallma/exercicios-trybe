@@ -177,6 +177,7 @@ if (num1 % 2 !== 0) {
 
 //Exercicio 10;
 
+/**
 const custoTotal = 1500 * 1.2;
 const valorVenda = 4800;
 
@@ -187,3 +188,40 @@ if (custoTotal >= 0 && valorVenda >= 0){
 } else {
   console.log("Os valores não podem ser negativos");
 }
+*/
+
+//Exercicio 11;
+
+let inss;
+let ir;
+
+let salarioBruto = 3000;
+console.log("Salário Sem Desconto = R$", salarioBruto);
+
+if (salarioBruto <= 1556.94) {
+  inss = salarioBruto * 0.8;
+} else if (salarioBruto <= 2594.92) {
+  inss = salarioBruto * 0.9;
+} else if (salarioBruto <= 5189.82) {
+  inss = salarioBruto * 0.11;
+} else {
+  inss = 570.88;
+}
+
+let salarioBase = salarioBruto - inss;
+console.log("Salário Base com Desconto INSS = R$", salarioBase);
+
+if (salarioBase <= 1903.98) {
+  ir = 0;
+} else if (salarioBase <= 2826.65) {
+  ir = (salarioBase * 0.075) - 142.80;
+} else if (salarioBase <= 3751.05) {
+  ir = (salarioBase * 0.15) - 354.80;
+} else if (salarioBase <= 4664.68) {
+  ir = (salarioBase * 0.225) - 636.13;
+} else {
+  ir = (salarioBase * 0.275) - 869.36;
+}
+
+let resultado = salarioBase - ir;
+console.log("Salário Base com Desconto INSS e IR = R$", resultado);
