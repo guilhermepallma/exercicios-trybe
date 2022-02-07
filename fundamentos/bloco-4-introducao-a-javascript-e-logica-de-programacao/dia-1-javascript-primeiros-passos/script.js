@@ -159,6 +159,7 @@ if (num1 % 2 === 0) {
 
 //Exercicio 09;
 
+/**
 const num1 = 2;
 const num2 = 4;
 const num3 = 6;
@@ -171,4 +172,18 @@ if (num1 % 2 !== 0) {
   console.log("true");
 } else {
   console.log("false");
+}
+*/
+
+//Exercicio 10;
+
+const custoTotal = 1500 * 1.2;
+const valorVenda = 4800;
+
+if (custoTotal >= 0 && valorVenda >= 0){
+  let lucro =  valorVenda - custoTotal;
+  let lucroFinal = lucro * 1000;
+  console.log(lucroFinal);
+} else {
+  console.log("Os valores não podem ser negativos");
 }
