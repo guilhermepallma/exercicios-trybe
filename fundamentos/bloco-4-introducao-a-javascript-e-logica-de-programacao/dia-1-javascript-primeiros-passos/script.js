@@ -1,6 +1,6 @@
 //Exercicio 01;
 
-/** 
+
 const a = 33;
 const b = 44;
 
@@ -18,12 +18,12 @@ console.log(divisao);
 
 let modulo = a % b;
 console.log(modulo);
-*/
+
 
 
 //Exercicio 02;
 
-/**
+
 const num1 = 11;
 const num2 = 22;
 
@@ -32,11 +32,11 @@ if (num2 > num1){
 } else {
     console.log(num1);
 }
-*/
+
 
 //Exercicio 03;
 
-/** 
+
 const num1 = 9;
 const num2 = 11;
 const num3 = 7;
@@ -48,11 +48,11 @@ if (num1 > num2 && num1 > num3){
 } else {
     console.log(num3);
 }
-*/
+
 
 //Exercicio 04;
 
-/**
+
 const num1 = -2
 
 if (num1 >= 1) {
@@ -60,11 +60,11 @@ if (num1 >= 1) {
 } else {
     console.log("negative");
 }
-*/
+
 
 //Exercicio 05;
 
-/**
+
 const lado1 = 60;
 const lado2 = 60;
 const lado3 = 60;
@@ -82,11 +82,11 @@ if (lado1 < 1 || lado2 < 1 || lado3 < 1) {
 } else {
     console.log("true");
 }
-*/
+
 
 //Exercicio 06;
 
-/**
+
 let text = "Cavalo";
 let peca = text.toLowerCase();
 
@@ -115,11 +115,11 @@ switch (peca) {
     console.log("diagonal");
     break;
 }
-*/
+
 
 //Exercicio 07;
 
-/**
+
 const porc = 60;
 
 if (porc < 0) {
@@ -137,11 +137,11 @@ if (porc < 0) {
 } else if (porc < 50) {
   console.log("F");
 }
-*/
+
 
 //Exercicio 08;
 
-/**
+
 const num1 = 1;
 const num2 = 3;
 const num3 = 5;
@@ -155,11 +155,11 @@ if (num1 % 2 === 0) {
 } else {
   console.log("false");
 }
-*/
+
 
 //Exercicio 09;
 
-/**
+
 const num1 = 2;
 const num2 = 4;
 const num3 = 6;
@@ -173,11 +173,11 @@ if (num1 % 2 !== 0) {
 } else {
   console.log("false");
 }
-*/
+
 
 //Exercicio 10;
 
-/**
+
 const custoTotal = 1500 * 1.2;
 const valorVenda = 4800;
 
@@ -188,7 +188,7 @@ if (custoTotal >= 0 && valorVenda >= 0){
 } else {
   console.log("Os valores não podem ser negativos");
 }
-*/
+
 
 //Exercicio 11;
 
