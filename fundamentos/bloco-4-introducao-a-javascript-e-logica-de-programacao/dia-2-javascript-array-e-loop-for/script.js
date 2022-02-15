@@ -74,11 +74,20 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // Exercício 07
 
-let larger = numbers[0];
+// let larger = numbers[0];
 
-for (let i = 0; i < numbers.length; i += 1){
-  if (larger > numbers[i]) {
-      larger = numbers[i];
-  }
+// for (let i = 0; i < numbers.length; i += 1){
+//   if (larger > numbers[i]) {
+//       larger = numbers[i];
+//   }
+// }
+// console.log(larger);
+
+//Exercício 08
+
+let array = [];
+
+for (let i = 1; i <= 25; i += 1) {
+  array.push(i)
 }
-console.log(larger);
+console.log(array);
