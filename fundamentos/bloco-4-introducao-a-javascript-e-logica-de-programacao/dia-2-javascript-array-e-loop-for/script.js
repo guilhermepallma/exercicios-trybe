@@ -48,11 +48,26 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 
 //Exercício 05
-let larger = numbers[0];
+
+// let larger = numbers[0];
+
+// for (let i = 0; i < numbers.length; i += 1){
+//   if (larger < numbers[i]) {
+//       larger = numbers[i];
+//   }
+// }
+// console.log(larger);
+
+//Exercício 06
+
+let reapet = 0;
 
 for (let i = 0; i < numbers.length; i += 1){
-  if (larger < numbers[i]) {
-      larger = numbers[i];
+  if (numbers[i] % 2 !== 0) {
+    reapet += 1;
+    console.log(reapet);
+  } else if (reapet === 0) {
+    console.log('nenhum valor ímpar encontrado');
+    break;
   }
 }
-console.log(larger);
