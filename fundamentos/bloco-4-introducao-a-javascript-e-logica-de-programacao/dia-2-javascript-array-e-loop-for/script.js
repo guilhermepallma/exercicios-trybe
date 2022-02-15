@@ -85,9 +85,21 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 //Exercício 08
 
-let array = [];
+// let array = [];
+
+// for (let i = 1; i <= 25; i += 1) {
+//   array.push(i)
+// }
+// console.log(array);
+
+//Exercício 09
+
+let createArray = [];
+let array = 0;
+let result = 0;
 
 for (let i = 1; i <= 25; i += 1) {
-  array.push(i)
+  array = createArray.push(i)
+  result = array / 2;
+  console.log(result);
 }
-console.log(array);
