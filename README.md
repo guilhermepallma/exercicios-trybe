@@ -31,38 +31,37 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [X] 3.4 - HTML Semântico
 - [X] 3.5 - Projeto - Lessons Learned
 
-### Bloco 4: Introdução à JavaScript e Lógica de Programação :hourglass_flowing_sand:
+### Bloco 4: Introdução à JavaScript e Lógica de Programação :heavy_check_mark:
 
 - [X] 4.1 - JavaScript - Primeiros passos
 - [X] 4.2 - JavaScript - Array e loop For
 - [X] 4.3 - JavaScript - Lógica de Programação e Algoritmos
 - [X] 4.4 - JavaScript - Objetos e funções
-- [ ] 4.5 - Projeto - Playground Functions
+- [X] 4.5 - Projeto - Playground Functions
 
-### Bloco 5: JavaScript: DOM, Eventos e Web Storage :closed_book:
-
-- [ ] 5.1 - JavaScript - DOM e seletores
-- [ ] 5.2 - JavaScript - Trabalhando com elementos
-- [ ] 5.3 - JavaScript - Eventos
-- [ ] 5.4 - JavaScript - Web Storage
-- [ ] 5.5 - Fundamentos - JavaScript - Projetos
-- [ ] 5.5 - Projeto - Arte com Pixels
-- [ ] 5.6 - Projeto - Lista de tarefas
+### Bloco 5: JavaScript: DOM, Eventos e Web Storage :heavy_check_mark:
+- [X] 5.1 - JavaScript - DOM e seletores
+- [X] 5.2 - JavaScript - Trabalhando com elementos
+- [X] 5.3 - JavaScript - Eventos
+- [X] 5.4 - JavaScript - Web Storage
+- [X] 5.5 - Fundamentos - JavaScript - Projetos
+- [X] 5.5 - Projeto - Arte com Pixels
+- [X] 5.6 - Projeto - Lista de tarefas
 - [ ] 5.7 - (Bônus) Projeto - Meme Generator
 - [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
 - [ ] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
-### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :closed_book:
+### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :heavy_check_mark:
 
-- [ ] 6.1 - HTML & CSS - Forms
-- [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
-- [ ] 6.3 - Introdução - CSS Flexbox
-- [ ] 6.3 - CSS Flexbox - Parte 1
-- [ ] 6.4 - CSS Flexbox - Parte 2
-- [ ] 6.5 - CSS Responsivo - Mobile First
-- [ ] 6.6 - Projeto - Trybewarts
+- [X] 6.1 - HTML & CSS - Forms
+- [X] 6.2 - Bibliotecas JavaScript e Frameworks CSS
+- [X] 6.3 - Introdução - CSS Flexbox
+- [X] 6.3 - CSS Flexbox - Parte 1
+- [X] 6.4 - CSS Flexbox - Parte 2
+- [X] 6.5 - CSS Responsivo - Mobile First
+- [X] 6.6 - Projeto - Trybewarts
 
-### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :closed_book:
+### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários :hourglass_flowing_sand:
 
 - [ ] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [ ] 7.2 - JavaScript ES6 - Objects
